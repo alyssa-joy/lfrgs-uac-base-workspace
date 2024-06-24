@@ -11,7 +11,7 @@ services:
     volumes:
        - ./docker-compose/database-dump/:/docker-entrypoint-initdb.d
     ports:
-      - "3306:3306"
+      - "3307:3306"
 
   liferay:
     image: liferay/dxp:7.2.10-dxp-20
